@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 12-'A'</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            height: 100vh;
+            width: 100%;
+            background-color: black;
+            padding: 2%;
+        }
+        .whole{
+            height: 100%;
+            width: 100%;
+            border-radius: 10px;
+            padding: 2%;
+            background-color: white;
+        }
+        .content{
+            height: 100%;
+            border: 2px solid gold;
+            border-radius: 5px;
+            width: 45%;
+            background-color: dimgrey;
+            color: white;
+        }
+        img{
+            float: right;
+        }
+        .content>div{
+            float: left;
+            padding: 2%;
+        }
+        
+        a:link{
+            color: yellow;
+        }
+        a:visited{
+            color: red;
+        }
+        p::first-letter{
+
+            color: gold;
+            font-size: xx-large;
+        }
+        p::first-line{
+            color: red;
+        }
+        h2::selection{
+            background-color: yellow;
+            color: black;
+        }
+        .content :hover{
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="whole">
+        <div class="head"></div>
+        <div class="content">
+            <div>
+                <h2>New pro chips.</h2>
+                <p>Scaling up the M2 architecture, M2 Pro and M2 Max deliver a next-generation CPU and GPU designed around high-bandwidth unified memory. Along with immensely capable media engines, these pro chips feature the faster 16-core Neural Engine and the latest Secure Enclave from M2.</p><a href="./dulogo.png" target="_blank">Read more...</a>
+                <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/refurb-mbp16-m2-silver-202303?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=1680103638275" height="200px">
+            </div>
+            </div>
+
+    </div>
+</body>
+</html>
