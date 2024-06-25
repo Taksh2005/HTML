@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>Part A</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .entry{
+                background-color: black;
+                float: left;
+                color: white;
+                width: 55%;
+                height: 5vh;
+                margin-top: 4vh;
+                border-radius: 5px;
+            }
+            #sidebar{
+                background-color: black;
+                color: white;
+                float: right;
+                margin-right: 2%;
+                width: 30%;
+                height: 20vh;
+                margin-top: 6vh;
+            }
+            @media (max-width : 620px) {
+                .entry{
+                    width: 100%;
+                }
+                #sidebar{
+                    float: left;
+                    width: 100%;
+                    margin-right: 0%;
+                    width: 30%;
+                    height: 20vh;
+                    margin-top: 6vh;
+
+                }
+            }
+            
+        </style>
+    </head>
+    <body style="background-color: rgb(44, 43, 43);">
+        <div style="color: white;margin-left: 10px;">Page </div>
+            <div style="background-color: rgb(255, 0, 0);color: white;height: 5vh;margin-left: 10px; margin-right: 10px;">Header</div>
+            <div style="background-color: rgb(115, 111, 139);height:  60vh;margin-left: 10px;padding-left: 10px;margin-right: 10px;">Content
+                <div id="sidebar">Sidebar</div>
+                <div class="entry">Entry</div>
+                <div class="entry">Entry</div>
+                <div class="entry">Entry</div>
+                
+
+            </div>
+            <div style="background-color: rgb(51, 0, 255); color: rgb(255, 255, 255);margin-left: 10px;margin-right: 10px;">©Darshan University-Rajkot</div>
+       
+    </body>
+</html>

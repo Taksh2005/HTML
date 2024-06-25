@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 9A-2</title>
+    <style>
+        @keyframes animation{
+            0%{
+                left: 0%;
+                top: 0%;
+                background-color: red;
+            }
+            25%{
+                left: 95%;
+                top: 0%;
+                background-color: yellow;
+            }
+            50%{
+                left: 95%;
+                top: 90%;
+                background-color: green;
+            }
+            75%{
+                left: 0%;
+                top: 90%;
+                background-color: blue;
+            }
+            100%{
+                left: 0%;
+                top: 0%;
+                background-color: red;
+            }
+        }
+        .div{
+            height: 10%;
+            width: 5%;
+            position: absolute;
+            background-color: red;
+            animation-name: animation;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            animation-direction: reverse;
+            animation-timing-function: linear;
+        }
+    </style>
+</head>
+<body>
+    <div class="div"></div>
+</body>
+</html>
